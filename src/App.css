@@ -1,0 +1,43 @@
+.container {
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+  text-align: center;
+  border: 2px;
+  border-color: rgb(218, 213, 213);
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  
+}
+.image {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  
+}
+.info {
+  padding-top: 2px;
+}
+.playerName, .otherInfo {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  
+}
+.fstyle {
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2px;
+  column-gap: 2px;
+  
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
